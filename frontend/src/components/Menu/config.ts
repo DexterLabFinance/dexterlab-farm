@@ -2,6 +2,24 @@ import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
+    label: 'Editions',
+    icon: 'HomeIcon',
+    items: [
+      {
+        label: 'Dexter',
+        href: 'https://dexterlab-farm.vercel.app/',
+      },
+      {
+        label: 'DeeDees',
+        href: 'https://deedee-farm.vercel.app/',
+      },
+      {
+        label: 'Mandark (In Progress)',
+        href: '/',
+      }
+    ],
+  },
+  {
     label: 'Home',
     icon: 'HomeIcon',
     href: '/',
