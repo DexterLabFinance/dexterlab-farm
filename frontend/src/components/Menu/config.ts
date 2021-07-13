@@ -10,7 +10,7 @@ const config: MenuEntry[] = [
         href: 'https://dexterlab.finance',
       },
       {
-        label: 'DeeDees',
+        label: 'DeeDee',
         href: 'https://deedee.dexterlab.finance',
       },
       {
