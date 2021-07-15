@@ -78,6 +78,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
 
         if (farm.quoteTokenSymbol === QuoteToken.ETH) {
           totalValue = totalValue.times(ethPrice);
+          console.log('ethPrice', ethPrice);
         }
 
         if(totalValue.comparedTo(0) > 0){
