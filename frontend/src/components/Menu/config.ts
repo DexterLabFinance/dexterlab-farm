@@ -14,8 +14,8 @@ const config: MenuEntry[] = [
         href: 'https://deedee.dexterlab.finance',
       },
       {
-        label: 'Mandark (In Progress)',
-        href: '/',
+        label: 'Mandark',
+        href: 'https://mandark.dexterlab.finance'',
       }
     ],
   },
